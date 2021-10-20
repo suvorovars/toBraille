@@ -1,3 +1,5 @@
+# https://ph0en1x.net/86-raspberry-pi-znakomstvo-s-gpio-perekluchatel-i-svetodiod.html
+
 import time
 import RPi.GPIO as GPIO
 
