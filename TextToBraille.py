@@ -4,6 +4,13 @@ class TextToBraille:
         self.convex = str(convex)
         self.smooth = str(smooth)
 
+    def update_text(self, text):
+        self.text = text.lower().replace("\n", " ").replace("\t", " ")
+
+    def update_signs(self, convex="*", smooth=" "):
+        self.convex = str(convex)
+        self.smooth = str(smooth)
+
     def to_braille_terminal(self):
         c = self.convex
         s = self.smooth
